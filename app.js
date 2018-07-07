@@ -7,7 +7,7 @@ angular.module('LunchCheck',[])
    LunchCheckController.$inject=['$scope'];
     function LunchCheckController($scope){
          $scope.value="";
-         $scope.resultMessage="";
+         $scope.resultMessage="Please enter data first";
 
          $scope.checkIFTooMuch = function(){
          var x = $scope.name.split(",");
