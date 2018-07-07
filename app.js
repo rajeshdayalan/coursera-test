@@ -28,5 +28,5 @@ angular.module('LunchCheck',[])
                    console.log(y);
              $scope.resultMessage = message;
        }
-   }
-})()
+   };
+})();
